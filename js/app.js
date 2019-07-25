@@ -118,6 +118,7 @@ var myChart = new Chart(ctx, {
     }
 });
 }
+<<<<<<< HEAD
 window.onload= localStorage(){
     var array =[];
     localStorage.setItem('productNames', '1');
@@ -135,3 +136,9 @@ function checkStorage(){
 createProducts();
 render();
     }}
+=======
+
+
+createProducts();
+render();
+>>>>>>> 4768bcc93ccbed471ae6d8c04d1adde75e6e7c16
