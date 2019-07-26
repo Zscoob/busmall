@@ -46,6 +46,10 @@ for(var i = 0; i < 3; i++){
     var img = document.createElement('img');
     img.setAttribute('src', allProducts[randomProducts[i]].imageUrl)
     img.setAttribute('data-name', allProducts[randomProducts[i]].name);
+    // I added this code Here
+    img.setAttribute('height', '300px');
+    img.setAttribute('width', '300px');
+
     img.addEventListener('click', handleVote);
     productSection.appendChild(img);
   };
